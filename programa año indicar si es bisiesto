@@ -1,0 +1,13 @@
+numero = int(input("introduzca un año: "))  
+if numero %400==0: #Es divisible por 4?                    
+ if numero %100!=0: #Es tambien NO DIVISIBLE por 100?
+  print("B") #Entonces es B
+ else: #Si es divisible por 4 y si por 100
+    if numero %400==0: #Es divisible por 400?
+      print ("B") #si es entonces si 
+    else:
+       print ("no B") #si no es entonces NO
+else: #Si no es divisible por 4,entonces no es bisiesto
+   print ("no B")
+		
+#Lisbeth Mujica
